@@ -1,0 +1,74 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  background: #fff;
+  align-content: center;
+  justify-content: left;
+  flex-direction: column;
+  min-width: 100px;
+  min-height: 100px;
+  border-radius: 5%;
+  margin: auto;
+}
+
+#refreshbox1 {
+color: #FFFFFF;
+background: #232323;
+text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #49ff18, 0 0 30px #49FF18, 0 0 40px #49FF18, 0 0 55px #49FF18, 0 0 75px #49ff18;
+color: #FFFFFF;
+background: #232323;
+}
+.refreshbox {
+ font-size: 30px;
+    font-weight: bold;
+    display: inline-block;
+    margin: 0 auto;
+    color: white;
+    background-color: pink;
+    border: 0.4em solid #d4f7da;
+    border-radius: 50%;
+    transition: all 0.3s;
+    box-sizing: border-box;
+    width: 4em;
+    height: 4em;
+    line-height: 3em;
+    cursor: pointer;
+    box-shadow: 0 0 0 rgba(0,0,0,0.1), inset 0 0 0 rgba(0,0,0,0.1);
+    text-align: center;
+}
+.refreshbox:hover {
+ box-shadow: 0 0 2em rgba(0,0,0,0.1), inset 0 0 1em rgba(0,0,0,0.1);
+    background-color: #29a074;
+}
+
+
+table {
+  border-collapse: collapse;
+  margin: auto;
+}
+
+td {
+  background-color: #663113;
+  border: 5px solid black;
+  font-size: 80px;
+  color: #fff;
+  border-radius: 10%;
+}
+
+#player {
+  padding: 1rem;
+}
+
+body {
+  display: flex;
+  background: #eee url('https://cosmosmagazine.com/wp-content/uploads/2020/02/181204-waves-full-1536x1131.jpg') no-repeat
+    center center/cover;
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+}
